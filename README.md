@@ -13,11 +13,9 @@ This project uses the [MovieLens dataset](https://grouplens.org/datasets/moviele
 ```
 movie-recommendation-system/
 │── data/                 # Dataset (movies, ratings, tags, links)
-│── src/                  # Source code
-│   ├── data_preprocessing.py
-│   ├── recommendation.py
-│   └── main.py
-│── notebooks/            # Jupyter notebooks for experiments
+│── scripts/                  # Source code
+│   ├── movie_recommender.py
+|
 │── README.md             # Project documentation
 │── requirements.txt      # Dependencies
 ```
